@@ -73,6 +73,39 @@
       .footer-section a:hover {
         text-decoration: underline;
       }
+      .content {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5f5;
+      }
+      .menu {
+        background-color: #1a1a2e;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+      }
+      .menu-content {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+      }
+      .menu-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      menu-item p {
+        margin: 10px 0 0;
+        font-size: 14px;
+      }
+      menu-icon {
+        width: 40px;
+        height: 40px;
+      }
     </style>
   </head>
   <body>
@@ -86,6 +119,39 @@
         </nav>
       </div>
     </header>
+    <main class="container">
+      <div class="content">
+        <h1>Welcome to the Webpage</h1>
+        <p>
+          Tis is the central area of the webpage where you can include your
+          content.
+        </p>
+      </div>
+      <div class="menu">
+        <div class="menu-content">
+          <div class="menu-item">
+            <img
+              src="fa-solid fa-location-crosshairs"
+              alt="Location Icon"
+              class="menu-icon"
+            />
+            <p>Location</p>
+          </div>
+          <div class="menu-item">
+            <img src="fa-solid fa-phone" alt="Phone Icon" class="menu-icon" />
+            <p>+02 1234567890</p>
+          </div>
+          <div class="menu-item">
+            <img
+              src="fa-solid fa-envelope"
+              alt="Email Icon"
+              class="menu-icon"
+            />
+            <p>demo@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer class="footer_section">
       <p>
         &copy; 2024 All Rights Reserved. Design by
