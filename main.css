@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  background: url("./images/galaxy-1.jpg") no-repeat center center/cover;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  max-width: 1200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-height: 1200px;
+  height: fit-content;
+  margin: 0 auto;
+}
+header {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  z-index: 10px;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-title {
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+nav a:hover {
+  background-color: #555;
+}
+nav a.active {
+  background-color: #0000ff;
+  color: white;
+}
+.footer-section {
+  max-width: 1000px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+.footer-section a:hover {
+  text-decoration: underline;
+}
+.content h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.description p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(173, 173, 173);
+}
+.menu {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+.menu-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+menu-item p {
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+.links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 10px 0;
+}
+
+.links a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: #0056b3;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.image-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gallery-image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
